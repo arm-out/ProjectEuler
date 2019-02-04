@@ -6,7 +6,7 @@ while not done:
         if sorted(str(i * candidate)) != sorted(str(candidate)):
             break
     else:
-        print (candidate)
+        print(candidate)
         done = True
 
     candidate += 1
